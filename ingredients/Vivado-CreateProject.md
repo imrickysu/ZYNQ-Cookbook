@@ -1,6 +1,8 @@
 # Create a Project in Vivado
 
-- Prerequests: None
+- Prerequests: 
+  - Vivado has been installed
+  - license has been configured properly
 - Demo version: Vivado 2014.1
 
 ## GUI Work Flow
