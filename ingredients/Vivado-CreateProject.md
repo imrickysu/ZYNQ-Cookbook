@@ -3,7 +3,7 @@
 - Prerequests: None
 - Demo version: Vivado 2014.1
 
-## Work Flow
+## GUI Work Flow
 ### Launch Vivado on Windows
 
 ![Vivado in Windows Start Menu](../images/Vivado-CreateProject-LaunchVivadoWindows.png)
@@ -43,3 +43,14 @@ Review the project summary
 
 Click Finish then get the created project.
 ![Vivado New Project Final](../images/Vivado-CreateProject-NewProject-Project.png)
+
+## Tcl Work Flow
+### Create Project
+Tcl Command
+`create_project <project name> <project location> -part <part number,package-speedgrade>`
+Example
+`create_project project_1 C:/CASE/CASE/demo/project_1 -part xc7z020clg484-1`
+
+### Set Board Model
+Example
+`set_property board_part xilinx.com:zc702:part0:1.0 [current_project]`
