@@ -1,5 +1,13 @@
 # Generate Output Products for Block Design and Create HDL Wrapper
 
+- Prerequests: 
+  - Block Design has been created
+- Demo version: Vivado 2014.1
+
+### Design Target
+- Use `Generate Output Products` command to generate the files that would be used in synthesis and simulation.
+- Use `Create HDL Wrapper` to create an HDL top module so that the design can run through the synthesis and implementation process.
+
 ## GUI Flow
 
 ### Generate Output Products
