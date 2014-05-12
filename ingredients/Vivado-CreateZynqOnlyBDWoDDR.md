@@ -1,5 +1,11 @@
 # Create a ZYNQ only BD Design without DDR
-Design Target:
+
+- Prerequests: 
+  - Vivado project has been created.
+- Demo version: Vivado 2014.1
+
+
+###Design Target
 
 - Processor: ZYNQ
 - No further IP connected
