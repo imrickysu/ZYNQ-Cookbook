@@ -45,6 +45,8 @@ Design Target:
 ![](../images/Vivado-CreateBD-FinalBD.png)
 
 ### Save Design
+![](../images/Vivado-CreateBD-SaveBd.png)
+
 
 ## Tcl
 ```tcl
