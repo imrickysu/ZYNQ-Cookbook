@@ -2,9 +2,7 @@
 
 ## Steps
 1. [Create a new project in Vivado](../ingredients/Vivado-CreateProject.md)
-2. [Create a simplest ZYNQ block design](../ingredients/Vivado-CreateSimpleZynqBlockDesign.md)
-3. [Configure ZYNQ clock settings](../ingredients/Vivado-ConfigZynqClock.md)
-4. [Configure ZYNQ QSPI Flash settings](../ingredients/Vivado-ConfigZynqQspi.md)
+2. [Create a simplest ZYNQ block design without DDR Controller](../ingredients/Vivado-CreateZynqOnlyBDWoDDR.md)
 5. [Generate block design output products and HDL Wrapper](../ingredients/Vivado-GenerateBlockDesign.md)
 6. [Export hardware design to SDK](../ingredients/Vivado-ExportToSDK.md)
 7. [Use SDK to import hardware](../ingredients/SDK-ImportHardware.md)
