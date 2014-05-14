@@ -24,3 +24,6 @@ zynq_flash -f \
 C:\CASE\CASE\demo\project_1\project_1.sdk\SDK\workspace\image\BOOT.mcs -offset 0 \
 -flash_type qspi_single -verify -cable type xilinx_tcf url TCP:127.0.0.1:3121 
 ```
+
+## References
+[Xilinx Doc for Program Flash Memory](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2014_1/SDK_Doc/reference/sdk_u_program_flash.htm)
