@@ -1,9 +1,10 @@
 # ZYNQ Cookbook #
 
-The main content of this cookbook wiki is in the [wiki](https://github.com/imrickysu/ZYNQ-Cookbook/wiki) site.
-
-The repo is mainly for code examples.
+## Contents ##
+- [How to make ZYNQ Boot from QSPI Flash with Only Bitstream?](recipe/ZynqConfigBitFromQspi.md)
 
 ### TODO List ###
 - How to set ZYNQ CPU Speed over 667MHz
 - How to make FSBL copy software binary and jump to a dedicated address rather than combining elf with it?
+- How to run BFM Simulation?
+- How to remap OCM?
