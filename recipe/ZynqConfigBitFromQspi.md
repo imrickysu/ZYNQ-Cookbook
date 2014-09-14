@@ -1,4 +1,4 @@
-# ZYNQ Configure Bitstream from QSPI Flash
+# How to make ZYNQ Boot from QSPI Flash with Only Bitstream?
 
 ## Steps
 1. [Create a new project in Vivado](../ingredients/Vivado-CreateProject.md)
