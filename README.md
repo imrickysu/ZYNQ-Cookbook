@@ -2,7 +2,10 @@
 
 ## Contents ##
 ### General Workflow ###
-- [How to make ZYNQ Boot from QSPI Flash with Only Bitstream?](recipe/ZynqConfigBitFromQspi.md)
+- [How to make ZYNQ boot from QSPI Flash with only bitstream?](recipe/ZynqConfigBitFromQspi.md)
+
+### OCM ###
+- [How to remap OCM addresses?](recipe/HowToRemapOCM.md)
 
 ### U-boot ###
-- [How to Add Unzip Function to U-boot](recipe/HowToAddUnzipFunctionToUBoot.md)
+- [How to add unzip function to U-boot](recipe/HowToAddUnzipFunctionToUBoot.md)
