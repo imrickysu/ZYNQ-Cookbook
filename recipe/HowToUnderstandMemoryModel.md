@@ -1,3 +1,5 @@
+# How to Understand Cortex-A9 Memory Model
+
 ## Memory Ordering ##
 - Normal
 - Device
