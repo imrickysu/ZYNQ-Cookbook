@@ -16,3 +16,11 @@
 - [Xilinx Wiki](http://wiki.xilinx.com)
 - [Xilinx Git](http://github.com/xilinx)
 - Video Trainings [ZYNQ Training - RTOS, FSBL, Linux, U-boot and Networking](http://www.xilinx.com/training/zynq/index.htm)
+
+## Boards ##
+- Xilinx Demo Kits [ZC702](http://www.xilinx.com/products/boards-and-kits/ek-z7-zc702-g.html) [ZC706](http://www.xilinx.com/products/boards-and-kits/ek-z7-zc706-g.html)
+- Avnet Demo Kits [ZedBoard](http://zedboard.org/) [MicroZed](http://zedboard.org/product/microzed)
+
+## Making Your Own Boards ##
+- ZYNQ PCB Guide [UG933](http://www.xilinx.com/support/documentation/user_guides/ug933-Zynq-7000-PCB.pdf)
+- Supported Flash [AR50991](http://www.xilinx.com/support/answers/50991.html)
