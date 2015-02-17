@@ -3,6 +3,9 @@
 ## Introduction ##
 
 ## Contents ##
+### Overview ###
+- [Where to find ZYNQ materials](recipe/WhereToFindZynqMaterials.md)
+
 ### PL Related ###
 - [How to make ZYNQ boot from QSPI Flash with only bitstream?](recipe/ZynqConfigBitFromQspi.md)
 
