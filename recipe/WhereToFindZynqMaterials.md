@@ -24,3 +24,4 @@
 ## Making Your Own Boards ##
 - ZYNQ PCB Guide [UG933](http://www.xilinx.com/support/documentation/user_guides/ug933-Zynq-7000-PCB.pdf)
 - Supported Flash [AR50991](http://www.xilinx.com/support/answers/50991.html)
+- Power Analysis Tutorial [UG997](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2014_4/ug997-vivado-power-analysis-optimization-tutorial.pdf)
