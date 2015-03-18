@@ -9,6 +9,7 @@
 ### PL Related ###
 - [How to make ZYNQ boot from QSPI Flash with only bitstream?](recipe/ZynqConfigBitFromQspi.md)
 - [How to Use AXI BFM](recipe/HowToUseAxiBfm.md)
+- [How to Enable AXI Burst Feature without Other AXI MM Features in Custom IP](recipe/HowToEnableAxiBurstFeatureOnlyForAxiMM.md)
 
 ### PS Related ###
 - [How to remap OCM addresses?](recipe/HowToRemapOCM.md)
