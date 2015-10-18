@@ -37,23 +37,25 @@ source project.tcl
 
 1. Import the hardware settings
 
-```
-petalinux-config --get-hw-description=<Vivado_Export_to_SDK_Directory>
-```
+  ```
+  petalinux-config --get-hw-description=<Vivado_Export_to_SDK_Directory>
+  ```
 
-1. Try to build with the default settings and check whether it works
+1. Try to build with the default settings
 
-```
-petalinux-build
-petalinux-package --boot --fsbl ./images/linux/zynq_fsbl.elf --fpga <BITSTREAM> --u-boot
-```
-The command above generates BOOT.bin in current working directory and `image/linux` directory.
+  ```
+  petalinux-build
+  petalinux-package --boot --fsbl ./images/linux/zynq_fsbl.elf --fpga <BITSTREAM> --u-boot
+  ```
 
-- Copy `BOOT.BIN` and `image.ub` to SD card
-- Boot your demo board from SD card
-- It should boot PetaLinux. Otherwise, check the above steps
-- Login with username = root, password = root
-- run `cat /proc/interrupts`. The Interrupt 61 should appear because petalinux by default assign the axi_timer driver to axi_timer IP.
+1. Check whether it works
+
+  - The command above generates BOOT.bin in current working directory and `image/linux` directory.
+  - Copy `BOOT.BIN` and `image.ub` to SD card
+  - Boot your demo board from SD card
+  - It should boot PetaLinux. Otherwise, check the above steps
+  - Login with username = root, password = root
+  - run `cat /proc/interrupts`. The Interrupt 61 should appear because petalinux by default assign the axi_timer driver to axi_timer IP.
 
 ### Customize PetaLinux ###
 1. Unregister the driver for AXI Timer.
@@ -65,9 +67,9 @@ The command above generates BOOT.bin in current working directory and `image/lin
 
 1. Create driver module
 
-```
-petalinux-create -t module -n axitimer_intr --enable
-```
+  ```
+  petalinux-create -t module -n axitimer_intr --enable
+  ```
 
 1. Add driver module source code
   1. Copy `axitimer_intr.c` to `<PetaLinux Project>/components/modules/axi_timer_intr/axitimer_intr.c` and replace the original file.
@@ -76,9 +78,9 @@ petalinux-create -t module -n axitimer_intr --enable
   1. In line 14, `#define IRQ_NUM` is changed from 91 to 61. The 61 is calculated from the above `29` + 32.
 
 1. Build the project
-```
-petalinux-build
-```
+  ```
+  petalinux-build
+  ```
 
 1. Check the design
   1. Copy `image/linux/image.ub` to SD card
