@@ -4,7 +4,8 @@
 - [AR 62363](http://www.xilinx.com/support/answers/62363.html)
 
 ## Example Instructions ##
-- This example is based on Vivado 2014.4 and PetaLinux 2014.4. Linux kernel is using 3.17.
+- This example is based on Vivado 2014.4 and PetaLinux 2014.4. 
+- Linux kernel is using 3.17.
 
 ### Vivado Hardware Project ###
 
@@ -22,16 +23,17 @@ To run the script, open Vivado and run the following scripts in tcl console:
 ```tcl
 cd <git_repo_root>/projects/HowToHandleInterruptFromPL
 source <your_board_initialization_script>
-source project.tcl  # It creates the project, regenerate the block design, run implementation and export the design
+source project.tcl  
+# project.tcl creates the project, regenerate the block design, run implementation and export the design
 ```
 
 ### Create PetaLinux Project ###
 1. Create a new PetaLinux project
 
-``` 
-petalinux-create -t project -n petalinux
-cd petalinux
-```
+  ``` 
+  petalinux-create -t project -n petalinux
+  cd petalinux
+  ```
 
 1. Import the hardware settings
 
