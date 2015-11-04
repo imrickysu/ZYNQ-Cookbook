@@ -14,5 +14,8 @@
 ### Select FSBL in the Tempalte
 ![](../images/SDK-FSBL-FSBLTemplate.png)
 
+Optional: If the system doesn't use PS side DDR, apply the modification in [AR56044](http://www.xilinx.com/support/answers/56044.html)
+
+
 ### Final FSBL Elf
 ![](../images/SDK-FSBL-Final.png)
