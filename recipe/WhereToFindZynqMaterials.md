@@ -26,3 +26,7 @@
 - ZYNQ PCB Guide [UG933](http://www.xilinx.com/support/documentation/user_guides/ug933-Zynq-7000-PCB.pdf)
 - Supported Flash [AR50991](http://www.xilinx.com/support/answers/50991.html)
 - Power Analysis Tutorial [UG997](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2014_4/ug997-vivado-power-analysis-optimization-tutorial.pdf)
+
+## 3rd Party Tutorials
+- [Zynq design from scratch](http://svenand.blogdrive.com/archive/160.html) by Sven Andersson.
+  It ccovers the process of using Vivado, SDK and PetaLinux on an Ubuntu VM on Mac OSX. He's targeting to Zed Board. He also tried to run Linaro Ubuntu on Zed Board.
