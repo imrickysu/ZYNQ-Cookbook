@@ -1,10 +1,12 @@
 # ZYNQ Cookbook #
 
 ## Introduction ##
+This cookbook is a FAQ style collection of ZYNQ related guides, tips and infomation. Whenever possible, this document will refer to external documents that are correct, easy to read, and well-maintained.
 
 ## Contents ##
 ### Overview ###
 - [Where to find ZYNQ materials](recipe/WhereToFindZynqMaterials.md)
+- [What are the important ZYNQ Answer Records](receipe/ImportantZynqAnswerRecords.md)
 
 ### PL Related ###
 - [How to make ZYNQ boot from QSPI Flash with only bitstream?](recipe/ZynqConfigBitFromQspi.md)
