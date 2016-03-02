@@ -16,6 +16,7 @@ This cookbook is a FAQ style collection of ZYNQ related guides, tips and infomat
 ### PS Related ###
 - [How to remap OCM addresses?](recipe/HowToRemapOCM.md)
 - [How to operate CP15 coprocessor](recipe/HowToOperateCP15.md)
+- [How to use RSA authentication](recipe/HowToUseRsa.md)
 
 ### U-boot ###
 - [How to add unzip function to U-boot](recipe/HowToAddUnzipFunctionToUBoot.md)
