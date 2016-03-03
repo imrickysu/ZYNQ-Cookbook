@@ -20,12 +20,13 @@
 ## Boards ##
 - Xilinx Demo Kits [ZC702](http://www.xilinx.com/products/boards-and-kits/ek-z7-zc702-g.html) [ZC706](http://www.xilinx.com/products/boards-and-kits/ek-z7-zc706-g.html)
 - Avnet Demo Kits [ZedBoard](http://zedboard.org/) [MicroZed](http://zedboard.org/product/microzed)
-- 7 Series Schematic Review Check List [XMP277](https://secure.xilinx.com/webreg/clickthrough.do?cid=198776&license=RefDesLicense&filename=xmp277-7series-schematic-review-recommendations.zip&languageID=1) (Login Required. Need to sign the license agreement.)
 
 ## Making Your Own Boards ##
 - ZYNQ PCB Guide [UG933](http://www.xilinx.com/support/documentation/user_guides/ug933-Zynq-7000-PCB.pdf)
+- 7 Series Schematic Review Check List [XMP277](https://secure.xilinx.com/webreg/clickthrough.do?cid=198776&license=RefDesLicense&filename=xmp277-7series-schematic-review-recommendations.zip&languageID=1) (Login Required. Need to sign the license agreement.)
 - Supported Flash [AR50991](http://www.xilinx.com/support/answers/50991.html)
 - Power Analysis Tutorial [UG997](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2014_4/ug997-vivado-power-analysis-optimization-tutorial.pdf)
+- [ZYNQ Custom Board Bring Up Guide](https://github.com/imrickysu/ZYNQ-Custom-Board-Bring-Up-Guide)
 
 ## 3rd Party Tutorials
 - [Zynq design from scratch](http://svenand.blogdrive.com/archive/160.html) by Sven Andersson.
