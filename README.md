@@ -8,6 +8,9 @@ This cookbook is a FAQ style collection of ZYNQ related guides, tips and infomat
 - [Where to find ZYNQ materials](recipe/WhereToFindZynqMaterials.md)
 - [What are the important ZYNQ Answer Records](receipe/ImportantZynqAnswerRecords.md)
 
+### System Level ###
+- [How to bring up a custom ZYNQ board](https://github.com/imrickysu/ZYNQ-Custom-Board-Bring-Up-Guide)
+
 ### PL Related ###
 - [How to make ZYNQ boot from QSPI Flash with only bitstream?](recipe/ZynqConfigBitFromQspi.md)
 - [How to Use AXI BFM](recipe/HowToUseAxiBfm.md)
