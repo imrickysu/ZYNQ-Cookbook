@@ -31,3 +31,6 @@
 ## 3rd Party Tutorials
 - [Zynq design from scratch](http://svenand.blogdrive.com/archive/160.html) by Sven Andersson.
   It ccovers the process of using Vivado, SDK and PetaLinux on an Ubuntu VM on Mac OSX. He's targeting to Zed Board. He also tried to run Linaro Ubuntu on Zed Board.
+
+## Xilinx ZYNQ Design Hub ##
+- [Zynq-7000 Design Hub](http://www.xilinx.com/support/documentation-navigation/design-hubs/dh0050-zynq-7000-design-overview-hub.html)
