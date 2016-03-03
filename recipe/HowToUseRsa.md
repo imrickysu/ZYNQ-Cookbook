@@ -8,6 +8,8 @@ ZYNQ security keys are stored in two different parts: AES keys in PL and RSA key
 - UG821 Appx.A
 - UG585 Ch32 and Ch6
 
+Note: The current version of UG1025 and Xapp1175 are written for Vivado 2013.2. Some commands can not be used in latest version of Vivado.
+
 ## Introduction ##
 Assuming the project file has been generated, the workflow of using RSA key can be divided into these steps:
 - Generate BOOT.BIN, which includes the authentication information of each partition needs to be authenticated
@@ -28,3 +30,13 @@ The program launch environment for manufactory should also be considered. We wil
 ## Release Mode Image Generation ##
 
 ## Program RSA keys ##
+
+### PS eFuse Bits ###
+
+
+## Notes about RSA workflow ##
+- There are some useful notes in the head comment of `xilskey_efuse_example.c` and `xilskey_input.h`
+- Whether BootROM utilizes RSA key to authenticate FSBL is determined by PS eFuse bit `XSK_EFUSEPS_ENABLE_RSA_AUTH`
+- If `XSK_EFUSEPS_ENABLE_RSA_AUTH` is not enabled but Boot.bin utilizes RSA, the authentication will fail.
+- Define `RSA_SUPPORT` in FSBL for RSA authentication flow support
+- Define `FSBL_DEBUG_INFO` and `FSBL_DEBUG_RSA` to print debug info of RSA authentication flow.
