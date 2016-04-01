@@ -22,4 +22,7 @@ This cookbook is a FAQ style collection of ZYNQ related guides, tips and infomat
 - [How to use RSA authentication](recipe/HowToUseRsa.md)
 
 ### U-boot ###
-- [How to add unzip function to U-boot](recipe/HowToAddUnzipFunctionToUBoot.md)
+- How to understand the basics of u-boot
+- [How to add unzip function to u-boot](recipe/HowToAddUnzipFunctionToUBoot.md)
+- How to add custom command for u-boot
+- How to debug u-boot
